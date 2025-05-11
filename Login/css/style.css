@@ -80,3 +80,13 @@
 .input-group input:hover{
     border: 1px rgb(33, 129, 255) solid;
 }
+.input-group input:focus{
+    border: 1px rgb(33, 129, 255) solid;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px rgb(33, 129, 255);   
+}
+.btn-login:hover{
+    background: rgb(25, 97, 190);
+    transform: translateY(-3px);
+    transition: 0.5s;
+}
