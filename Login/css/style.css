@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navBar{
+    width: 100%;
+    min-height: 60px;
+    background-color: black;
+}
+.headerLogin{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn-login{
+    border-radius: 5px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group input{
+    padding: 2px;
+    border-radius: 10px;
+    padding: 14px 16px;
+    border: 1px solid #cdcdcd;
+    background: #e5e5e5;
+}
+
+.input-group label{
+    margin-left: 7px;
+
+}
+.cont-login{
+    width: 100%;
+    max-width: 400px;
+}
+.card-login{
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px -6px  black;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.btn-login{
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(33, 129, 255);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.input-group input:hover{
+    border: 1px rgb(33, 129, 255) solid;
+}
